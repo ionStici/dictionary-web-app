@@ -11,11 +11,7 @@ Form.autofill = 'off';
 const label = createElement('label', [styles.label], 'Search for any word...');
 label.for = 'search';
 
-const redText = createElement(
-    'p',
-    [styles.redText, styles.hide_redText],
-    "Whoops, can't be empty..."
-);
+const redText = createElement('p', [styles.redText, styles.hide_redText], "Whoops, can't be empty...");
 
 const input = createElement('input', [styles.input]);
 input.name = 'search';
